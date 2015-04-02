@@ -1,7 +1,7 @@
 <?php
 
 function Eratosthenes($_number){
-	for($i=0;$i<$_number;$i++){
+	for($i=2;$i<$_number;$i++){
 		$num[$i]=1;
 	}
 	$num[0]=0;
